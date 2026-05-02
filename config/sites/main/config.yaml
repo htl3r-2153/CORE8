@@ -1,0 +1,17 @@
+base: "http://core8.ddev.site/fc-bigfoot"
+dependencies:
+  - bootstrap-package/full
+  - htl-rennweg/fc-bigfoot
+  - typo3/seo-sitemap
+languages:
+  - title: English
+    enabled: true
+    locale: en-US
+    hreflang: ""
+    base: /
+    websiteTitle: ""
+    navigationTitle: ""
+    flag: global
+    languageId: 0
+rootPageId: 1
+websiteTitle: "FC Bigfoot"

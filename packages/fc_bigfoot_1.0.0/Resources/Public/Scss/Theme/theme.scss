@@ -1,0 +1,14 @@
+//
+// Variables
+//
+@import "variables";
+
+//
+// Import needed Bootstrap Package Files
+//
+@import "EXT:bootstrap_package/Resources/Public/Scss/bootstrap5/theme";
+
+// For equally sized pictures in the text & images CE
+.gallery-item img {
+    width: 30%;
+}

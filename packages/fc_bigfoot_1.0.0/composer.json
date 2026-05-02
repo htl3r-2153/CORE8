@@ -1,0 +1,21 @@
+{
+    "name": "htl-rennweg/fc-bigfoot",
+    "type": "typo3-cms-extension",
+    "description": "",
+    "homepage": "http://www.htl.rennweg.at",
+    "license": ["GPL-2.0-or-later"],
+    "keywords": ["TYPO3 CMS"],
+    "require": {
+        "bk2k/bootstrap-package": "^15.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "HtlRennweg\\FcBigfoot\\": "Classes/"
+        }
+    },
+    "extra": {
+        "typo3/cms": {
+            "extension-key": "fc_bigfoot"
+        }
+    }
+}
